@@ -32,7 +32,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
       ),
       body: SafeArea(
         child: Align(
-          alignment: Alignment(0.05, 0),
+          alignment: Alignment(0, 0),
           child: Text(
             'Hello World',
             style: FlutterFlowTheme.bodyText1.override(
